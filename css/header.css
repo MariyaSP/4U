@@ -1,0 +1,136 @@
+.header{
+    
+    background:  url("../img/stag-office-mockup.png");
+    position: relative;   
+    z-index: 2;
+    color:#fff;
+}
+
+.header::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgba(47, 50, 75, 0.85);
+}
+.header__container{
+    z-index: 1;
+}
+
+.phone{
+    flex-direction: column;
+
+
+}
+.phone p{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.phone p:first-child{
+
+    font-size: 23.85px;
+    line-height: 28px;
+    
+}
+
+.phone__line{
+    width: 131.98px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+
+.header__content{
+    margin: 0 auto;
+    padding-bottom:50px;
+    max-width: 990px;
+}
+
+.header__content h1{
+    font-family: "Roboto-black";
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 61px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.86);
+    margin: 0 auto;
+    padding-bottom: 35px;
+
+}
+
+.header__content-text{
+    max-width: 960px;
+    font-size: 22px;
+    line-height: 31px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+    padding-bottom: 90px;
+
+}
+
+.btn{
+    background: #15A9CB;
+    box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
+    border-radius: 50px;
+    width: 200px;
+    height: 48px;
+    border: 0;
+    margin: 0 auto;
+    display: block;
+    color:#fff;
+
+}
+
+@media(max-width: 1200px){
+    .header__logo{
+        width: 60px;
+    }
+
+    .phone p:first-child{
+    font-size: 21px;
+    line-height: 25px;
+        
+    }
+
+    .phone p{
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .phone__line{
+        width: 106px;
+    }
+
+    .header__content{
+        width: 780px;
+        padding-bottom: 0;
+    }
+
+    .header__content h1{
+        font-size: 40px;
+        line-height: 47px;
+        padding-bottom:22.57px;
+    }
+    .header__content-text{
+        font-size: 18px;
+        line-height: 25px;
+        padding-bottom: 60.43px;
+    }
+
+    .btn{
+        width: 200px;
+        height: 48px;
+        border: 0;
+        margin: 0 auto;
+        display: block;
+    }
+
+}

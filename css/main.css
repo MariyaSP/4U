@@ -1,0 +1,33 @@
+@import url("normalize.css");
+@import url("/css/font.css");
+@import url("header.css");
+@import url("advantages.css");
+
+*{
+    
+    font-family: Roboto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 126px;
+}
+section{
+    padding: 70px 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media(max-width: 1200px){
+    .container{
+        max-width: 964px;
+    }
+
+    header{
+        padding-bottom: 70px;
+    }
+}
