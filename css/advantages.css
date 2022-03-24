@@ -2,16 +2,80 @@
     color: #383A4C;
 }
 
+.advantages__text{
+    margin-bottom: 50px;
+}
 .advantages__subtitle{
     display: flex;
     margin: 0 auto;
     width: 189px;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 35px;
 }
 
 .advantages__line{
     width: 43px;
     height: 2px;
     background: #383A4C;
+    
+}
+
+.advantages__line-text{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    
+}
+
+.advantages__subtitle-text{
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    max-width: 724px;
+}
+
+.advantages__item{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;   
+    margin: 0 auto;
+    counter-reset: count 0; 
+    max-width: 934px;
+}
+.advantages__items{
+    width: 196px;
+    position: relative;
+    
+}
+
+.advantages__circle{
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: #23C7EC;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.advantages__circle:before{
+    content: counter(count);
+    position: absolute;
+    font-weight: 500;
+    font-size: 57px;
+    line-height: 100%;
+    color: #FFFFFF;
+    display: flex;
+    top: 32px;
+    left: 44px;
+    counter-increment: count;
+}
+
+.advantages__items-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
 }
