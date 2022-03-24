@@ -37,6 +37,7 @@
 
     font-size: 23.85px;
     line-height: 28px;
+    margin-bottom: 7px;
     
 }
 
@@ -50,7 +51,7 @@
 .header__content{
     margin: 0 auto;
     padding-bottom:50px;
-    max-width: 990px;
+    width: 100%;
 }
 
 .header__content h1{
@@ -89,7 +90,7 @@
 
 }
 
-@media(max-width: 1200px){
+@media(max-width: 1024px){
     .header__logo{
         width: 60px;
     }
@@ -110,7 +111,7 @@
     }
 
     .header__content{
-        width: 780px;
+        
         padding-bottom: 0;
     }
 
@@ -128,9 +129,51 @@
     .btn{
         width: 200px;
         height: 48px;
-        border: 0;
-        margin: 0 auto;
-        display: block;
+
     }
 
+}
+
+@media(max-width: 320px){
+    
+    .header__logo{
+        width: 30px;
+    }
+
+    .phone p{
+        display: none;
+    }
+
+    .phone{
+        background:#555A7B;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+    }
+
+    .phone:before{
+        content: "";
+        display: block;
+        width: 24px;
+        height: 24px;
+        background: url("../img/icon/phone.svg") no-repeat center;
+    }
+
+    .header__content h1{
+        font-size: 20px;
+        line-height: 23px;
+        padding-bottom:23px;
+    }
+
+    .header__content-text{
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 54px;
+    }
+
+    .btn{
+        width: 160px;
+        height: 38px;
+        margin-bottom: 35px;
+    }
 }
