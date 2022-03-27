@@ -3,7 +3,7 @@
 }
 
 .advantages__text{
-    margin-bottom: 50px;
+    margin-bottom: 58px;
 }
 .advantages__subtitle{
     display: flex;
@@ -43,10 +43,12 @@
     margin: 0 auto;
     counter-reset: count 0; 
     max-width: 934px;
+    margin-bottom: 3px;
 }
 .advantages__items{
     width: 196px;
     position: relative;
+    
     
 }
 
@@ -68,15 +70,15 @@
     line-height: 100%;
     color: #FFFFFF;
     display: flex;
-    top: 32px;
-    left: 44px;
+    top: 38px;
+    left: 46px;
     counter-increment: count;
 }
 
 .advantages__items-text{
     font-weight: 500;
     font-size: 20px;
-    line-height: 28px;
+    line-height: 26px;
     text-align: center;
 }
 

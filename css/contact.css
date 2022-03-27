@@ -9,6 +9,7 @@
 
 .contact__header h2{
     padding-bottom: 17px;
+    padding-right:20px;
 }
 .contact::after{
     content: '';
@@ -21,7 +22,7 @@
     z-index: -1;
     background: rgba(47, 50, 75, 0.85);
 }
-.header__container{
+.contact .header__container{
     z-index: 1;
     max-width: 1200px;
 }
@@ -39,16 +40,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 52px;
 }
 
 .contact__form input{
     background: transparent;
-    width: 423px;
+    width: 395px;
     height: 44px;
     border: 1.38235px solid #FFFFFF;
     border-radius: 50px;
-    margin-bottom: 21px;
+    margin-bottom: 17px;
     padding-left: 25px;
     color: #fff;
     font-weight: 400;
@@ -68,7 +69,7 @@
 
 .contact__form input[type="email"]{
 
-    margin-bottom: 50px;
+    margin-bottom: 46px;
 
 }
 

@@ -16,7 +16,7 @@ header{
     padding-bottom: 126px;
     align-items: center;
 }
-.header, .advantages, .contact{
+.advantages, .contact{
     padding: 70px 0;
     margin: 0 auto;
 }
@@ -31,8 +31,9 @@ h2{
 }
 
 .container{
-    width: 80%;
+    width: 1200px;
     margin: 0 auto;
+    padding-left: 78px;
 }
 
 .btn{
@@ -45,6 +46,9 @@ h2{
     margin: 0 auto;
     display: block;
     color:#fff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
 
 }
 
